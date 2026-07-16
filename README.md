@@ -97,8 +97,8 @@ Make sure you have Node.js and `pnpm` installed on your machine.
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Jiya-Choudhary/Portfolio-Jiya-Choudhary.git
-   cd Portfolio-Jiya-Choudhary
+   git clone https://github.com/Jiya-Choudhary/Jiya-Choudhary-Portfolio.git
+   cd Jiya-Choudhary-Portfolio
    ```
 
 2. **Install Dependencies:**
