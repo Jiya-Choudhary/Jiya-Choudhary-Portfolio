@@ -40,7 +40,7 @@ export default function ContactSection() {
           </Link>{" "}
           {t.contactOr}{" "}
           <Link
-            href={`mailto:${data.contact.email}?subject=${encodeURIComponent(t.contactSubject)}&body=${encodeURIComponent(t.contactBody)}`}
+            href={`mailto:${data.contact.email}`}
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
             {t.contactEmail}

@@ -151,7 +151,7 @@ export default function Navbar() {
           <Tooltip>
             <TooltipTrigger asChild>
               <a
-                href={`mailto:${data.contact.email}?subject=${encodeURIComponent(lang === "en" ? "Inquiry regarding your Portfolio / Collaboration Opportunity" : "Pertanyaan mengenai Portofolio Anda / Peluang Kolaborasi")}&body=${encodeURIComponent(lang === "en" ? "Dear Jiya Choudhary,\n\nI recently viewed your portfolio and I am very impressed with your background in Web Development and Artificial Intelligence.\n\nI would love to discuss a potential opportunity or collaboration with you regarding [insert topic here].\n\nLooking forward to hearing from you.\n\nBest regards,\n[Your Name]\n[Your Company/Organization]" : "Dear Jiya Choudhary,\n\nSaya baru saja melihat portofolio Anda dan saya sangat terkesan dengan latar belakang Anda di bidang AI dan Rekayasa Perangkat Lunak.\n\nSaya ingin mendiskusikan peluang atau kolaborasi potensial dengan Anda mengenai [masukkan topik di sini].\n\nMenunggu kabar dari Anda.\n\nHormat saya,\n[Nama Anda]\n[Perusahaan/Organisasi Anda]")}`}
+                href={`mailto:${data.contact.email}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
